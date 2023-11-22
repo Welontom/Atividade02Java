@@ -10,7 +10,7 @@ import armas.*;
  *
  * @author Wel
  */
-public class Soldado extends Personagem {
+public class Soldado extends Terrestres {
 
     public Soldado(boolean jogador) {
         super(jogador);

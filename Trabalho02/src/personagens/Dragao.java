@@ -11,7 +11,7 @@ import trabalho02.InOut;
  *
  * @author Wel
  */
-public class Dragao extends Personagem{
+public class Dragao extends Alados{
     
     public Dragao(boolean jogador) {
         super(jogador);
@@ -22,11 +22,6 @@ public class Dragao extends Personagem{
     }
     
     
-    @Override
-    public void ler(){
-        InOut.MsgDeInformacao("Sobre a sua arma", "Você é muito poderoso, porém não sabe ler...");
-    
-    }
     
     
 }
